@@ -1,2 +1,2 @@
-# Cyclistic_Bike_share_project
+# Cyclistic Bike share project
 Google Analytics Capstone Project
