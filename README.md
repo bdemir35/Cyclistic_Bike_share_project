@@ -236,6 +236,8 @@ tripdata_2021 %>%
   scale_fill_manual(values = c("casual"="Red", "member"="Black"))
 ```
 
+![](https://github.com/bdemir35/Cyclistic_Bike_share_project/blob/main/Rides_per_month.png)
+
 + This plot shows us Casual riders are more active in summer seasons and their activity sharply decrease in October
 + Member riders shows same trend like Casual riders but their activity decrease slightly. Especially members are more active 
 in Autumn
@@ -251,6 +253,8 @@ tripdata_2021 %>%
   scale_fill_manual(values = c("casual"="Red", "member"="Black"))
 ```
 
+![](https://github.com/bdemir35/Cyclistic_Bike_share_project/blob/main/Bike_type_usage.png)
+
 + Classic bike and Electric bike are the most popular bike types using by the customers. Members are the highest user of classic bikes and the electric bikes
 + On the other hand docked bikes are only used by the casual members
 
@@ -264,6 +268,8 @@ tripdata_2021 %>%
   geom_col(position = "dodge") + labs(x='Days of the week', y='Average duration - Mins', title='Average Ride Time', fill='Type of Membership')+
   scale_fill_manual(values = c("casual"="Red", "member"="Black"))
 ```
+
+![](https://github.com/bdemir35/Cyclistic_Bike_share_project/blob/main/Avg_time_usage.png)
 
 + In general the average  time for each ride for Casual riders are more than the member riders.
 
