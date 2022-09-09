@@ -220,6 +220,8 @@ tripdata_2021 %>%
   scale_fill_manual(values = c("casual"="Red", "member"="Black"))
 ```
 
+![](https://github.com/bdemir35/Cyclistic_Bike_share_project/blob/main/Avg_time_usage.png)
+
 + This plot shows us casual members use bikes on weekends, and usage in weekdays dramatically lower.
 On the other hand members use bikes regularly in whole week for their commute, on weekends like leisure usage drops slightly
 
